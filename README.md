@@ -1,3 +1,3 @@
 # Learning repo
 Trying to understand how to use git:
-I created a branch!! Yeah!
+I now know how to create a branch!!
