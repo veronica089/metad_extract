@@ -1,5 +1,2 @@
-# Learning repo
-Trying to understand how to use git:
-I now know how to create a branch!!
+# Scripts made to excract frames from multiple-walker metadynamics according to rbias values in colvar
 
-new line
