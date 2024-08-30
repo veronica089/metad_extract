@@ -1,0 +1,11 @@
+#!/bin/bash
+#SBATCH -J WP
+#SBATCH -o WP.out
+#SBATCH -e WP.err
+#SBATCH -D .
+#SBATCH -N 1
+#SBATCH -n 24
+#SBATCH -p mmb_cpu_sphr
+#SBATCH --time=10:00:00
+source ../cmip/condaenv_base_cmip/bin/activate
+python 1extract_from_dzvalues_formwf.py 3 -15 12 1.5 "wt_Glu0" 
